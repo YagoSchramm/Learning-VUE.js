@@ -13,11 +13,5 @@ export default {
     created() {
 
     },
-    mounted() {
-              const nome = prompt('Qual é o seu nome?');
-        if (nome) {
-            this.name = nome;
-        }
-    },
 }
 </script>
